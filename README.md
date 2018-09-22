@@ -1,5 +1,5 @@
-#Source code for Lab2 Theremin
-
+Source code for Lab2 Theremin
+======
 The code is for 3.3&3.4, other code is in 'archive' folder
 
 Function description:
