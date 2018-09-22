@@ -1,5 +1,7 @@
 #Source code for Lab2 Theremin
+
 The code is for 3.3&3.4, other code is in 'archive' folder
+
 Function description:
 ------
 1. Generate PWM signal for buzzer
@@ -8,6 +10,7 @@ Function description:
 3. Amplitude depends on voltage from photo-resistor voltage divider
 	*discrete amplitude control from PB2-4 to resistor network DAC
 	*continuous amplitude control from PD3 to RC filter
+
 PinMap:
 ------
 *PD3(3) - timer2 PWM out (continuous amplitude)
@@ -17,6 +20,7 @@ PinMap:
 *PB1(9) - Trigger for ultrasonic rangefinder
 *PB2-4(10-12) - DAC output (discrete amplitude)
 *PD7(7) - switch	(switch between continuous and discrete pitch)
+
 Module functionality:
 ------
 1. Timer0(CTC mode): for PWM pitch control 
